@@ -1,6 +1,6 @@
 node {
     stage ('Git Clone') {
-        git 'https://github.com/tatareddy467/proapp'
+        git 'https://github.com/tatareddy467/Only4rJenkins.git'
         }
     stage ('Maven Clean') {
       sh 'mvn clean'
